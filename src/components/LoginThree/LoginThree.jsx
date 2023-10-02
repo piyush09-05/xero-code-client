@@ -23,7 +23,7 @@ const LoginThree = () => {
         
           setDeployementOption(newDeploymentOption);
         
-          const url = 'http://localhost:9000/add-deployment';
+          const url = 'https://xerocodee-task-sgpm.vercel.app/add-deployment';
         
           // Make the POST request using Axios
           await axios.post(url, newDeploymentOption)

@@ -27,7 +27,7 @@ function Login() {
   }
 
   const handleSocialLogin = () => {
-     window.open("http://localhost:9000/auth/google", "_self")
+     window.open("https://xerocodee-task-sgpm.vercel.app/auth/google", "_self")
   }
 
   const handleSubmit = async (e) => { 
@@ -37,7 +37,7 @@ function Login() {
     const lowerCaseEmail = formData.emailid.toLowerCase();
 
     try {
-      const response = await axios.post('http://localhost:9000/log-in', {
+      const response = await axios.post('https://xerocodee-task-sgpm.vercel.app/log-in', {
         emailid: lowerCaseEmail,
         password: formData.password,
       });

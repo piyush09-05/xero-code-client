@@ -36,7 +36,7 @@ function RegistrationForm() {
 
     // Send registration data to the backend API using Axios
     axios
-      .post('http://localhost:9000/sign-up', formData)
+      .post('https://xerocodee-task-sgpm.vercel.app/sign-up', formData)
       .then((response) => {
         console.log('Registration successful:', response.data);
         // history.push('/dashboard');

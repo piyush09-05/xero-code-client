@@ -5,7 +5,7 @@ import githubLogo from "./github-logo.png";
 function SignInButtons() {
 
   const handleGoogleLogin = () => {
-    window.open("http://localhost:9000/auth/google", "_self")
+    window.open("https://xerocodee-task-sgpm.vercel.app/auth/google", "_self")
  }
 
     return (

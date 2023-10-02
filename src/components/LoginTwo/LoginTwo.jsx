@@ -24,7 +24,7 @@ const LoginTwo = () =>{
         // Set the userdata state with the new data
         setuserdata(newUserData);
       
-        const url = 'http://localhost:9000/add-role';
+        const url = 'https://xerocodee-task-sgpm.vercel.app/add-role';
       
         // Make the POST request using Axios with the updated userdata
         await axios.post(url, newUserData)
