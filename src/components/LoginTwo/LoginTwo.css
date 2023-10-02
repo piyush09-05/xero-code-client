@@ -1,0 +1,49 @@
+.logintwocontainer{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 110vh;
+    background-color: white;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5% 5%  5% 5%;
+}
+.logo-container{
+    flex: 1;
+}
+.button-container {
+    padding: 40px;
+    flex: 2;
+    display: flex;
+    justify-content: space-between; /* Distribute space between buttons */
+  }
+  
+  .button-div {
+    flex: 1; /* Each div takes up equal space */
+    text-align: center; /* Center-align text in div */
+    margin: 50x;
+    margin-top: 70px;
+    width: 30vh /* Adjust spacing between divs */
+  }
+  
+  .styled-button {
+    background-color: #fff; /* White background color */
+    color: #000; /* Black text color */
+    border: 2px solid #808090; /* Black border */
+    border-radius: 4px;
+    padding: 10px 20px; /* Adjust padding as needed */
+    cursor: pointer;
+    transition: border-color 0.3s ease; /* Add transition for border color */
+    width: 69%;
+  }
+  
+  .styled-button:hover {
+  
+    background-color: #007bff;/* Blue border on hover */
+  }

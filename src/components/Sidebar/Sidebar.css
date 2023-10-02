@@ -1,0 +1,49 @@
+/* Sidebar container */
+.sidebar {
+    background-color: #c7dffc;
+    width: 250px;
+    height: 100%;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+  }
+  
+  /* Logo styles */
+  .logo img {
+    width: 100px;
+    /* max-width: 200px; */
+    display: block;
+    margin: 0 auto 20px;
+    margin-right: 15px;
+    
+  }
+  .sidebar-items{
+    margin-top: 50px;
+  }
+  
+  /* Sidebar item styles */
+  .sidebar-items .sidebar-item {
+    display: flex;
+    align-items: center;
+    /* padding: 1 0; */
+    color: #000;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: 5px;
+    border-radius: 25px;
+  }
+  
+  .sidebar-items .sidebar-item:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  /* Icon styles (You may need to adjust this based on your actual icons) */
+  .icon {
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  

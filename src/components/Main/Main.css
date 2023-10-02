@@ -1,0 +1,40 @@
+/* Dashboard styles */
+.dashboard {
+    background-color: #fff; 
+    border-radius: 25px; /* Rounded corners for the dashboard */
+    padding: 20px;
+    margin-left: 250px; /* Match the sidebar width */
+    margin-top: 60px; /* Match the search bar height */
+    margin-right: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto; /* Add scrollbars if content overflows */
+  }
+  
+  /* Other styles for your dashboard content */
+  .dashboard h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+  }
+  .bodyConatiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    
+  }
+  .stepsContainer{
+    flex: 2;
+    background-color: "yellow";
+    border: 2px;
+  }
+  .ProgressContainer{
+    flex: 1;
+    background-color: "red";
+  }
+ 
+  

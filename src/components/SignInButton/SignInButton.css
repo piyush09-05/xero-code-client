@@ -1,0 +1,38 @@
+/* CSS */
+.button-container {
+    display: flex;
+    justify-content: center; /* Center-align buttons horizontally */
+    gap: 10px; /* Adjust spacing between buttons */
+    margin-top: 7px;
+  }
+  
+  .google-button,
+  .github-button
+   {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white; /* Google blue and GitHub black */
+    color: #808090;
+    text-decoration: none;
+    border: 1px;
+    border-radius: 4px;
+    transition: box-shadow 0.3s ease; 
+  }
+  
+
+  .google-button:hover,
+  .github-button:hover 
+  {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Apply shadow effect on hover */
+  }
+
+  
+  
+  
+  .logo {
+    width: 20px; /* Adjust logo size */
+    height: 15px;
+    margin-right: 10px; /* Spacing between logo and text */
+  }
+  

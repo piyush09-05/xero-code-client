@@ -1,0 +1,46 @@
+/* Search container styles (unchanged) */
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    left: 30%;
+    width: 25%;
+  }
+  
+  /* Search bar styles with rounded corners */
+  .search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 25px; /* Rounded corners for the entire search bar */
+    overflow: hidden;
+  }
+  
+  /* Search input styles with rounded corners */
+  .search-input {
+    padding: 10px;
+    border: none;
+    outline: none;
+    width: 100%;
+    border-top-left-radius: 25px; /* Rounded top-left corner */
+    border-bottom-left-radius: 25px; /* Rounded bottom-left corner */
+  }
+  
+  /* Search button styles */
+  .search-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-top-right-radius: 25px; /* Rounded top-left corner */
+    border-bottom-right-radius: 25px;
+  }
+  
+  /* Add hover effect for the button */
+  .search-button:hover {
+    background-color: #0056b3;
+  }
+  

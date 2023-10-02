@@ -1,0 +1,35 @@
+.dh_container{
+    display: flex;
+    justify-content: space-between;
+    background-color:   #eceef8;
+    border-radius: 25px;
+    height: 15vh;
+    width: 142vh;
+    padding: 1.4%;
+}
+.toggle-button {
+    background-color: lightblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .toggle-button:hover {
+    background-color: #3498db; /* Slightly darker blue on hover */
+  }
+  
+  /* Additional style for the "Developer Mode" button state */
+  .developer-mode {
+    background-color: white;
+    color: lightblue;
+  }
+  
+  .test-button {
+    background-color: lightblue;
+    color: white;
+  }
+  

@@ -1,0 +1,13 @@
+.step-comp-container{
+    background-color: "yellow";
+    color: "yellow";
+    display: flex;
+    
+    justify-content: center;
+    flex-direction: column;
+
+}
+.cloudOptions{
+    display: flex;
+    justify-content: space-around;
+}
